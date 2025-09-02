@@ -1,0 +1,15 @@
+.task_field {
+    width: 500px;
+    height: 200px;
+}
+
+.layout {
+    display: flex;
+}
+
+aside {
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    background-color:#ff838b;
+}
