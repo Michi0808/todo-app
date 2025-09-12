@@ -5,11 +5,11 @@
 
 .layout {
     display: flex;
+    min-height: 100vh;
 }
 
 aside {
     text-align: center;
     width: 100px;
-    height: 200px;
     background-color:#ff838b;
 }
