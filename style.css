@@ -8,8 +8,39 @@
     min-height: 100vh;
 }
 
+form {
+  background-color: #47d1da;
+  color: black;
+}
+
 aside {
     text-align: center;
     width: 100px;
     background-color:#ff838b;
+}
+
+legend {
+    font-weight: bold;
+    float: left;
+    margin-bottom: .5em;
+    width: 100%;
+}
+
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  border: thin solid #47d1da;
+  margin: 0 auto;
+  padding: 2em;
+  width: 75%;
+}
+
+ul{
+  padding-left:0;
+}
+
+li{
+  list-style:none;
 }
