@@ -3,6 +3,10 @@
     height: 200px;
 }
 
+.title {
+    display: flex;
+}
+
 .layout {
     display: flex;
     min-height: 100vh;
@@ -13,10 +17,11 @@ form {
   color: black;
 }
 
-aside {
+#sidebar {
     text-align: center;
     width: 100px;
     background-color:#ff838b;
+    display: block;
 }
 
 legend {
@@ -26,10 +31,6 @@ legend {
     width: 100%;
 }
 
-fieldset, legend {
-  margin: 0;
-  padding: 0;
-}
 fieldset {
   border: thin solid #47d1da;
   margin: 0 auto;
